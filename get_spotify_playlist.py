@@ -334,4 +334,4 @@ async def api_get_song():
         return jsonify({'error': 'Could not retrieve song URL'}), 500
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
